@@ -3,4 +3,4 @@ project(RBPO C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(RBPO CompareStrings.c locals.h Sort.c)
+add_executable(RBPO CompareStrings.c locals.h Sort.c PersonsArray.c)

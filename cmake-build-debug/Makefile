@@ -153,6 +153,30 @@ CompareStrings.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RBPO.dir/build.make CMakeFiles/RBPO.dir/CompareStrings.c.s
 .PHONY : CompareStrings.c.s
 
+PersonsArray.o: PersonsArray.c.o
+.PHONY : PersonsArray.o
+
+# target to build an object file
+PersonsArray.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RBPO.dir/build.make CMakeFiles/RBPO.dir/PersonsArray.c.o
+.PHONY : PersonsArray.c.o
+
+PersonsArray.i: PersonsArray.c.i
+.PHONY : PersonsArray.i
+
+# target to preprocess a source file
+PersonsArray.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RBPO.dir/build.make CMakeFiles/RBPO.dir/PersonsArray.c.i
+.PHONY : PersonsArray.c.i
+
+PersonsArray.s: PersonsArray.c.s
+.PHONY : PersonsArray.s
+
+# target to generate assembly for a file
+PersonsArray.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RBPO.dir/build.make CMakeFiles/RBPO.dir/PersonsArray.c.s
+.PHONY : PersonsArray.c.s
+
 Sort.o: Sort.c.o
 .PHONY : Sort.o
 
@@ -189,6 +213,9 @@ help:
 	@echo "... CompareStrings.o"
 	@echo "... CompareStrings.i"
 	@echo "... CompareStrings.s"
+	@echo "... PersonsArray.o"
+	@echo "... PersonsArray.i"
+	@echo "... PersonsArray.s"
 	@echo "... Sort.o"
 	@echo "... Sort.i"
 	@echo "... Sort.s"

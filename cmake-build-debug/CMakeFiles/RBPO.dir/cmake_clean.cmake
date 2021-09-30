@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/RBPO.dir/CompareStrings.c.o"
+  "CMakeFiles/RBPO.dir/PersonsArray.c.o"
   "CMakeFiles/RBPO.dir/Sort.c.o"
   "RBPO"
   "RBPO.pdb"
