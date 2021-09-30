@@ -5,6 +5,7 @@ void Sort(struct Person *persons, int count, enum SortType sortType) {
     int s = count;
     if (sortType == Asc) {
         while (count > 1) {
+            //TODO: a piece of code to avoid repeating the same thing
             s /= 1.247f;
             if (s < 1) s = 1; // 0 быть не может, присвоим 1
             k = 0; // нет перестановок
