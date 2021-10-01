@@ -105,11 +105,53 @@ CMakeFiles/RBPO.dir/PersonsArray.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/RBPO.dir/PersonsArray.c.s"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/smkv/CLionProjects/RBPO/PersonsArray.c -o CMakeFiles/RBPO.dir/PersonsArray.c.s
 
+CMakeFiles/RBPO.dir/PersonsCreate.c.o: CMakeFiles/RBPO.dir/flags.make
+CMakeFiles/RBPO.dir/PersonsCreate.c.o: ../PersonsCreate.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/smkv/CLionProjects/RBPO/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/RBPO.dir/PersonsCreate.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/RBPO.dir/PersonsCreate.c.o -c /Users/smkv/CLionProjects/RBPO/PersonsCreate.c
+
+CMakeFiles/RBPO.dir/PersonsCreate.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/RBPO.dir/PersonsCreate.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/smkv/CLionProjects/RBPO/PersonsCreate.c > CMakeFiles/RBPO.dir/PersonsCreate.c.i
+
+CMakeFiles/RBPO.dir/PersonsCreate.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/RBPO.dir/PersonsCreate.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/smkv/CLionProjects/RBPO/PersonsCreate.c -o CMakeFiles/RBPO.dir/PersonsCreate.c.s
+
+CMakeFiles/RBPO.dir/main.c.o: CMakeFiles/RBPO.dir/flags.make
+CMakeFiles/RBPO.dir/main.c.o: ../main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/smkv/CLionProjects/RBPO/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/RBPO.dir/main.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/RBPO.dir/main.c.o -c /Users/smkv/CLionProjects/RBPO/main.c
+
+CMakeFiles/RBPO.dir/main.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/RBPO.dir/main.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/smkv/CLionProjects/RBPO/main.c > CMakeFiles/RBPO.dir/main.c.i
+
+CMakeFiles/RBPO.dir/main.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/RBPO.dir/main.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/smkv/CLionProjects/RBPO/main.c -o CMakeFiles/RBPO.dir/main.c.s
+
+CMakeFiles/RBPO.dir/ViewAll.c.o: CMakeFiles/RBPO.dir/flags.make
+CMakeFiles/RBPO.dir/ViewAll.c.o: ../ViewAll.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/smkv/CLionProjects/RBPO/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/RBPO.dir/ViewAll.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/RBPO.dir/ViewAll.c.o -c /Users/smkv/CLionProjects/RBPO/ViewAll.c
+
+CMakeFiles/RBPO.dir/ViewAll.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/RBPO.dir/ViewAll.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/smkv/CLionProjects/RBPO/ViewAll.c > CMakeFiles/RBPO.dir/ViewAll.c.i
+
+CMakeFiles/RBPO.dir/ViewAll.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/RBPO.dir/ViewAll.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/smkv/CLionProjects/RBPO/ViewAll.c -o CMakeFiles/RBPO.dir/ViewAll.c.s
+
 # Object files for target RBPO
 RBPO_OBJECTS = \
 "CMakeFiles/RBPO.dir/CompareStrings.c.o" \
 "CMakeFiles/RBPO.dir/Sort.c.o" \
-"CMakeFiles/RBPO.dir/PersonsArray.c.o"
+"CMakeFiles/RBPO.dir/PersonsArray.c.o" \
+"CMakeFiles/RBPO.dir/PersonsCreate.c.o" \
+"CMakeFiles/RBPO.dir/main.c.o" \
+"CMakeFiles/RBPO.dir/ViewAll.c.o"
 
 # External object files for target RBPO
 RBPO_EXTERNAL_OBJECTS =
@@ -117,9 +159,12 @@ RBPO_EXTERNAL_OBJECTS =
 RBPO: CMakeFiles/RBPO.dir/CompareStrings.c.o
 RBPO: CMakeFiles/RBPO.dir/Sort.c.o
 RBPO: CMakeFiles/RBPO.dir/PersonsArray.c.o
+RBPO: CMakeFiles/RBPO.dir/PersonsCreate.c.o
+RBPO: CMakeFiles/RBPO.dir/main.c.o
+RBPO: CMakeFiles/RBPO.dir/ViewAll.c.o
 RBPO: CMakeFiles/RBPO.dir/build.make
 RBPO: CMakeFiles/RBPO.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/smkv/CLionProjects/RBPO/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable RBPO"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/smkv/CLionProjects/RBPO/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking C executable RBPO"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/RBPO.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
