@@ -84,9 +84,6 @@
 		<Unit filename="/Users/smkv/CLionProjects/RBPO/PersonsArray.c">
 			<Option target="RBPO"/>
 		</Unit>
-		<Unit filename="/Users/smkv/CLionProjects/RBPO/PersonsCreate.c">
-			<Option target="RBPO"/>
-		</Unit>
 		<Unit filename="/Users/smkv/CLionProjects/RBPO/Sort.c">
 			<Option target="RBPO"/>
 		</Unit>

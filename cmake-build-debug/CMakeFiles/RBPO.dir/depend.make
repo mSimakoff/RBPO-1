@@ -7,9 +7,6 @@ CMakeFiles/RBPO.dir/CompareStrings.c.o: \
 CMakeFiles/RBPO.dir/PersonsArray.c.o: \
  ../PersonsArray.c \
  ../locals.h
-CMakeFiles/RBPO.dir/PersonsCreate.c.o: \
- ../PersonsCreate.c \
- ../locals.h
 CMakeFiles/RBPO.dir/Sort.c.o: \
  ../Sort.c \
  ../locals.h

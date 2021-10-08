@@ -25,4 +25,6 @@ void Sort(struct Person *persons, int count, enum SortType sortType);
 
 Person* GetPersons(int argc, char* argv[], int* count);
 
+void PrintPerson(Person p);
+
 void PrintAllPerson(Person* p, int count);

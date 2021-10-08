@@ -38,7 +38,12 @@ Person* GetPersons(int argc, char* argv[], int* count) {
                     int age = atoi(argv[j + 1]);
                     p[index].birthYear = age;
                 }
+//                free(p[index].firstName);
+//                free(p[index].secondName);
+//                free(p[index].thirdName);
+//                free(p[index].birthYear);
             }
+
             index++;
         }
     }

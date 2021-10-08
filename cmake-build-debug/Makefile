@@ -177,30 +177,6 @@ PersonsArray.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RBPO.dir/build.make CMakeFiles/RBPO.dir/PersonsArray.c.s
 .PHONY : PersonsArray.c.s
 
-PersonsCreate.o: PersonsCreate.c.o
-.PHONY : PersonsCreate.o
-
-# target to build an object file
-PersonsCreate.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RBPO.dir/build.make CMakeFiles/RBPO.dir/PersonsCreate.c.o
-.PHONY : PersonsCreate.c.o
-
-PersonsCreate.i: PersonsCreate.c.i
-.PHONY : PersonsCreate.i
-
-# target to preprocess a source file
-PersonsCreate.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RBPO.dir/build.make CMakeFiles/RBPO.dir/PersonsCreate.c.i
-.PHONY : PersonsCreate.c.i
-
-PersonsCreate.s: PersonsCreate.c.s
-.PHONY : PersonsCreate.s
-
-# target to generate assembly for a file
-PersonsCreate.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RBPO.dir/build.make CMakeFiles/RBPO.dir/PersonsCreate.c.s
-.PHONY : PersonsCreate.c.s
-
 Sort.o: Sort.c.o
 .PHONY : Sort.o
 
@@ -288,9 +264,6 @@ help:
 	@echo "... PersonsArray.o"
 	@echo "... PersonsArray.i"
 	@echo "... PersonsArray.s"
-	@echo "... PersonsCreate.o"
-	@echo "... PersonsCreate.i"
-	@echo "... PersonsCreate.s"
 	@echo "... Sort.o"
 	@echo "... Sort.i"
 	@echo "... Sort.s"
