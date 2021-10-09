@@ -6,18 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/Users/smkv/CLionProjects/RBPO/CompareStrings.c
-locals.h
-/Users/smkv/CLionProjects/RBPO/locals.h
-
-/Users/smkv/CLionProjects/RBPO/PersonsArray.c
-locals.h
-/Users/smkv/CLionProjects/RBPO/locals.h
-
-/Users/smkv/CLionProjects/RBPO/Sort.c
-locals.h
-/Users/smkv/CLionProjects/RBPO/locals.h
-
 /Users/smkv/CLionProjects/RBPO/ViewAll.c
 locals.h
 /Users/smkv/CLionProjects/RBPO/locals.h
@@ -31,8 +19,4 @@ string.h
 -
 locale.h
 -
-
-/Users/smkv/CLionProjects/RBPO/main.c
-locals.h
-/Users/smkv/CLionProjects/RBPO/locals.h
 
