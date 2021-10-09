@@ -153,6 +153,30 @@ CompareStrings.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RBPO.dir/build.make CMakeFiles/RBPO.dir/CompareStrings.c.s
 .PHONY : CompareStrings.c.s
 
+PersonsArray.o: PersonsArray.c.o
+.PHONY : PersonsArray.o
+
+# target to build an object file
+PersonsArray.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RBPO.dir/build.make CMakeFiles/RBPO.dir/PersonsArray.c.o
+.PHONY : PersonsArray.c.o
+
+PersonsArray.i: PersonsArray.c.i
+.PHONY : PersonsArray.i
+
+# target to preprocess a source file
+PersonsArray.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RBPO.dir/build.make CMakeFiles/RBPO.dir/PersonsArray.c.i
+.PHONY : PersonsArray.c.i
+
+PersonsArray.s: PersonsArray.c.s
+.PHONY : PersonsArray.s
+
+# target to generate assembly for a file
+PersonsArray.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RBPO.dir/build.make CMakeFiles/RBPO.dir/PersonsArray.c.s
+.PHONY : PersonsArray.c.s
+
 Sort.o: Sort.c.o
 .PHONY : Sort.o
 
@@ -177,6 +201,54 @@ Sort.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RBPO.dir/build.make CMakeFiles/RBPO.dir/Sort.c.s
 .PHONY : Sort.c.s
 
+ViewAll.o: ViewAll.c.o
+.PHONY : ViewAll.o
+
+# target to build an object file
+ViewAll.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RBPO.dir/build.make CMakeFiles/RBPO.dir/ViewAll.c.o
+.PHONY : ViewAll.c.o
+
+ViewAll.i: ViewAll.c.i
+.PHONY : ViewAll.i
+
+# target to preprocess a source file
+ViewAll.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RBPO.dir/build.make CMakeFiles/RBPO.dir/ViewAll.c.i
+.PHONY : ViewAll.c.i
+
+ViewAll.s: ViewAll.c.s
+.PHONY : ViewAll.s
+
+# target to generate assembly for a file
+ViewAll.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RBPO.dir/build.make CMakeFiles/RBPO.dir/ViewAll.c.s
+.PHONY : ViewAll.c.s
+
+main.o: main.c.o
+.PHONY : main.o
+
+# target to build an object file
+main.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RBPO.dir/build.make CMakeFiles/RBPO.dir/main.c.o
+.PHONY : main.c.o
+
+main.i: main.c.i
+.PHONY : main.i
+
+# target to preprocess a source file
+main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RBPO.dir/build.make CMakeFiles/RBPO.dir/main.c.i
+.PHONY : main.c.i
+
+main.s: main.c.s
+.PHONY : main.s
+
+# target to generate assembly for a file
+main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RBPO.dir/build.make CMakeFiles/RBPO.dir/main.c.s
+.PHONY : main.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -189,9 +261,18 @@ help:
 	@echo "... CompareStrings.o"
 	@echo "... CompareStrings.i"
 	@echo "... CompareStrings.s"
+	@echo "... PersonsArray.o"
+	@echo "... PersonsArray.i"
+	@echo "... PersonsArray.s"
 	@echo "... Sort.o"
 	@echo "... Sort.i"
 	@echo "... Sort.s"
+	@echo "... ViewAll.o"
+	@echo "... ViewAll.i"
+	@echo "... ViewAll.s"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 .PHONY : help
 
 

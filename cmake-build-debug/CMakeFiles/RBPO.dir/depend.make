@@ -4,6 +4,15 @@
 CMakeFiles/RBPO.dir/CompareStrings.c.o: \
  ../CompareStrings.c \
  ../locals.h
+CMakeFiles/RBPO.dir/PersonsArray.c.o: \
+ ../PersonsArray.c \
+ ../locals.h
 CMakeFiles/RBPO.dir/Sort.c.o: \
  ../Sort.c \
  ../locals.h
+CMakeFiles/RBPO.dir/ViewAll.c.o: \
+ ../ViewAll.c \
+ ../locals.h
+CMakeFiles/RBPO.dir/main.c.o: \
+ ../locals.h \
+ ../main.c

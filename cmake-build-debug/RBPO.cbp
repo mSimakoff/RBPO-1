@@ -81,10 +81,19 @@
 		<Unit filename="/Users/smkv/CLionProjects/RBPO/CompareStrings.c">
 			<Option target="RBPO"/>
 		</Unit>
+		<Unit filename="/Users/smkv/CLionProjects/RBPO/PersonsArray.c">
+			<Option target="RBPO"/>
+		</Unit>
 		<Unit filename="/Users/smkv/CLionProjects/RBPO/Sort.c">
 			<Option target="RBPO"/>
 		</Unit>
+		<Unit filename="/Users/smkv/CLionProjects/RBPO/ViewAll.c">
+			<Option target="RBPO"/>
+		</Unit>
 		<Unit filename="/Users/smkv/CLionProjects/RBPO/locals.h">
+			<Option target="RBPO"/>
+		</Unit>
+		<Unit filename="/Users/smkv/CLionProjects/RBPO/main.c">
 			<Option target="RBPO"/>
 		</Unit>
 		<Unit filename="/Users/smkv/CLionProjects/RBPO/CMakeLists.txt">
