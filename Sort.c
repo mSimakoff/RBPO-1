@@ -10,17 +10,17 @@ void Sort(struct Person *persons, int count, enum SortType sortType) {
             if (s < 1) s = 1; // 0 быть не может, присвоим 1
             k = 0; // нет перестановок
             for (int i = 0; i + s < count; i++) { // двигаемся, пока сравниваемый элемент (на s от текущего) в массиве
-                if (CompareStrings(persons[i].firstName, persons[i + s].firstName) == -1) {
+                if (CompareStrings(persons[i].firstName, persons[i + s].firstName) < 0) {
                     struct Person tmp = persons[i];
                     persons[i] = persons[i + s];
                     persons[i + s] = tmp;
                 } else if (CompareStrings(persons[i].firstName, persons[i + s].firstName) == 0)
-                    if (CompareStrings(persons[i].secondName, persons[i + s].secondName) == -1) {
+                    if (CompareStrings(persons[i].secondName, persons[i + s].secondName) < 0) {
                         struct Person tmp = persons[i];
                         persons[i] = persons[i + s];
                         persons[i + s] = tmp;
                     } else if (CompareStrings(persons[i].secondName, persons[i + s].secondName) == 0)
-                        if (CompareStrings(persons[i].thirdName, persons[i + s].thirdName) == -1) {
+                        if (CompareStrings(persons[i].thirdName, persons[i + s].thirdName) < 0) {
                             struct Person tmp = persons[i];
                             persons[i] = persons[i + s];
                             persons[i + s] = tmp;
