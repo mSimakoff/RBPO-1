@@ -5,7 +5,7 @@ void Sort(struct Person *persons, int count, enum SortType sortType) {
     int s = count;
     if (sortType == Asc) {
         while (count > 1) {
-            //TODO: a piece of code to avoid repeating the same thing
+            //TODO: сделать case и попробовать закинуть одинаковые куски в функцию
             s /= 1.247f;
             if (s < 1) s = 1; // 0 быть не может, присвоим 1
             k = 0; // нет перестановок
@@ -68,30 +68,3 @@ void Sort(struct Person *persons, int count, enum SortType sortType) {
         }
     }
 }
-//    for (int min = 0; min < count - 1; min++) {
-//        int least = min;
-//        for (int j = min + 1; j < count; j++)
-//            if (CompareStrings(persons[j].firstName, persons[least].firstName) == -1)
-//                least = j;
-//            else if (CompareStrings(persons[j].firstName, persons[least].firstName) == 0)
-//                if (CompareStrings(persons[j].secondName, persons[least].secondName) == -1)
-//                    least = j;
-//                else if (CompareStrings(persons[j].secondName, persons[least].secondName) == 0)
-//                    if (CompareStrings(persons[j].thirdName, persons[least].thirdName) == -1)
-//                        least = j;
-//                    else if (CompareStrings(persons[j].thirdName, persons[least].thirdName) == 0)
-//                        if (persons[j].birthYear <= persons[least].birthYear)
-//                            least = j;
-//        struct Person tmp = persons[min];
-//        persons[min] = persons[least];
-//        persons[least] = tmp;
-//    }
-
-
-//    struct Person t;
-//    if (sortType == Desc)
-//        for (int i = 0; i < count / 2; i++) {
-//            t = persons[i];
-//            persons[i] = persons[count - i - 1];
-//            persons[count - i - 1] = t;
-//        }
