@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+/Users/smkv/CLionProjects/RBPO/CompareStrings.c
+locals.h
+/Users/smkv/CLionProjects/RBPO/locals.h
+
 /Users/smkv/CLionProjects/RBPO/PersonsArray.c
 locals.h
 /Users/smkv/CLionProjects/RBPO/locals.h
