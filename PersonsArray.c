@@ -11,10 +11,12 @@ Person* GetPersons(int argc, char* argv[], int* count) {
 
     Person* p = (Person*) malloc(sizeof(Person) * *count);
     for (int i = 0; i < *count; i++) {
-        //TODO удар молотком в темечко ПОМЕНЯТЬ нужно копировать строки
-        p[i].firstName = "Аноним";
-        p[i].secondName = "Аноним";
-        p[i].thirdName = "Аноним";
+        p[i].firstName = (char*) malloc(strlen("Anonimous"));
+        strcpy(p[i].firstName, "Anonimous");
+        p[i].secondName = (char*) malloc(strlen("Anonimous"));
+        strcpy(p[i].secondName, "Anonimous");
+        p[i].thirdName = (char*) malloc(strlen("Anonimous"));
+        strcpy(p[i].thirdName, "Anonimous");
         p[i].birthYear = 18;
     }
 
