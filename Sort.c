@@ -1,13 +1,13 @@
 #include "locals.h"
 
 void Sort(struct Person *persons, int count, enum SortType sortType) {
-    int tmp, k; // готовим начальный шаг
+    int k; // готовим начальный шаг
     int s = count;
     switch(sortType){
         case(Asc):
             while (count > 1) {
                 //TODO: сделать case и попробовать закинуть одинаковые куски в функцию
-                s /= 1.247f;
+                s /= 1.247;
                 if (s < 1) s = 1; // 0 быть не может, присвоим 1
                 k = 0; // нет перестановок
                 for (int i = 0; i + s < count; i++) { // двигаемся, пока сравниваемый элемент (на s от текущего) в массиве
@@ -32,12 +32,12 @@ void Sort(struct Person *persons, int count, enum SortType sortType) {
                                     persons[i + s] = tmp;
                                 }
                 }
-                if (s == 1) // шаг 1, как в обычном пузырьке. Включаем контроль
+                if (s == 1)
                     count = k + 1;
             }
         case(Desc):
             while (count > 1) {
-                s /= 1.247f;
+                s /= 1.247;
                 if (s < 1) s = 1; // 0 быть не может, присвоим 1
                 k = 0; // нет перестановок
                 for (int i = 0; i + s < count; i++) { // двигаемся, пока сравниваемый элемент (на s от текущего) в массиве
@@ -62,8 +62,7 @@ void Sort(struct Person *persons, int count, enum SortType sortType) {
                                     persons[i + s] = tmp;
                                 }
                 }
-                if (s == 1) // шаг 1, как в обычном пузырьке. Включаем контроль
-                    count = k + 1;
+                if (s == 1) count = k + 1;
             }
     }
 }

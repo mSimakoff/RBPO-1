@@ -11,12 +11,12 @@ Person* GetPersons(int argc, char* argv[], int* count) {
 
     Person* p = (Person*) malloc(sizeof(Person) * *count);
     for (int i = 0; i < *count; i++) {
-        p[i].firstName = (char*) malloc(strlen("Anonimous"));
-        strcpy(p[i].firstName, "Anonimous");
-        p[i].secondName = (char*) malloc(strlen("Anonimous"));
-        strcpy(p[i].secondName, "Anonimous");
-        p[i].thirdName = (char*) malloc(strlen("Anonimous"));
-        strcpy(p[i].thirdName, "Anonimous");
+        p[i].firstName = (char*) malloc(strlen("Anonymous"));
+        strcpy(p[i].firstName, "Anonymous");
+        p[i].secondName = (char*) malloc(strlen("Anonymous"));
+        strcpy(p[i].secondName, "Anonymous");
+        p[i].thirdName = (char*) malloc(strlen("Anonymous"));
+        strcpy(p[i].thirdName, "Anonymous");
         p[i].birthYear = 18;
     }
 
