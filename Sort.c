@@ -6,7 +6,6 @@ void Sort(struct Person *persons, int count, enum SortType sortType) {
     switch(sortType){
         case(Asc):
             while (count > 1) {
-                //TODO: сделать case и попробовать закинуть одинаковые куски в функцию
                 s /= 1.247;
                 if (s < 1) s = 1; // 0 быть не может, присвоим 1
                 k = 0; // нет перестановок
